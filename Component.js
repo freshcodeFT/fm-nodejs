@@ -9,5 +9,5 @@ class Component {
 
 console.log(123);
 
-exports.Component = Component;
-exports.test = 5;
+module.exports.Component = Component;
+module.exports.test = 5;
